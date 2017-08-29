@@ -1,3 +1,27 @@
 // Place all the styles related to the email controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 {
+  text-align: center;
+}
+
+#container {
+  width: 1000px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  margin: auto;
+}
+
+.mail-list {
+  width: 450px;
+  background: pink;
+  margin-right: 30px;
+}
+
+.mail-view {
+  width: 450px;
+  background: green;
+  margin-left: 30px;
+}
