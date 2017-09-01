@@ -2,8 +2,21 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
+}
+
+body {
+  background: #fd5c63;
+}
+
 h1 {
   text-align: center;
+  margin-top: 60px;
+  color: white;
+  font-size: 8em;
 }
 
 #container {
@@ -12,21 +25,18 @@ h1 {
   box-sizing: border-box;
   justify-content: center;
   margin: auto;
+  margin-top: 30px;
 }
 
 .mail-list {
   box-sizing: border-box;
   width: 450px;
-  background: pink;
+  border: solid 5px white;
   margin-right: 30px;
   padding: 30px;
-}
-
-.mail-view {
-  width: 450px;
-  background: green;
-  margin-left: 30px;
-  height: 450px;
+  color: white;
+  font-size: 2.5em;
+  border-radius: 10px;
 }
 
 li {
@@ -34,14 +44,31 @@ li {
   line-height: 40px;
 }
 
-#output {
-  position: absolute;
-  display: none;
+#output1 {
+  padding: 10px;
+}
+
+#output2 {
+  padding: 10px;
+}
+
+#output3 {
+  padding: 10px;
+}
+
+#output4 {
+  padding: 10px;
 }
 
 .container-view {
   width: 450px;
   margin-left: 30px;
   height: 450px;
-  border: solid 1px black;
+  border: solid 5px #003666;
+  border-radius: 10px;
+  background: white;
+}
+
+.mail-view {
+  background: white;
 }
