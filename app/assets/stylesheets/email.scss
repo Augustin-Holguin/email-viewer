@@ -15,13 +15,33 @@ h1 {
 }
 
 .mail-list {
+  box-sizing: border-box;
   width: 450px;
   background: pink;
   margin-right: 30px;
+  padding: 30px;
 }
 
 .mail-view {
   width: 450px;
   background: green;
   margin-left: 30px;
+  height: 450px;
+}
+
+li {
+  list-style: none;
+  line-height: 40px;
+}
+
+#output {
+  position: absolute;
+  display: none;
+}
+
+.container-view {
+  width: 450px;
+  margin-left: 30px;
+  height: 450px;
+  border: solid 1px black;
 }
